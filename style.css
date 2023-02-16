@@ -6,12 +6,10 @@
 header{
     width: 100%;
     background: #223845;
-    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 150px;
-    padding-left: 150px;
+    padding: 15px 150px 15px 150px;
     color: white;
     border-bottom: 4px solid #e8491d;
     position: -webkit-sticky; /* Safari */
@@ -51,31 +49,25 @@ span {
     align-items: center;
     justify-content: center;
     color: white;
-    margin-left: auto;
-    margin-top: auto;
+    text-align: center;
     /* background-image: linear-gradient(rgb(134, 161,187)); */
 }
 .frontpage h1 {
     font-size: 80px;
     margin-bottom: 20px;
 }
-.frontpage p {
-    width: auto;
-    text-align: center;
-    padding-left: 100px;
-    padding-right: 100px;
+main p {
+    width: 80%;
 }
 .newsletter {
-    height: 60px;
     background: #223845;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 150px;
-    padding-left: 150px;
     color: white;
     font-size: 20px;
+    padding: 15px 150px 15px 150px;
 }
 
 .newsletter input[type="email"] {
